@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name RT - WIP
 // @description Script RT
-// @version 1.3
+// @version 1.4
 // @grant none
 // @match https://rt.labs.it/rt/Dashboards/41326/*
 // ==/UserScript==
@@ -13,7 +13,7 @@ for (var i = 1; i <= trs.length; i++) {
   var tds = trs[i].getElementsByTagName('td');
 
   for (var l = 0; l < tds.length; l++) {
-    switch(String(tds[7].getElementsByTagName('span')[0].innerHTML)){
+    switch(String(tds[8].getElementsByTagName('span')[0].innerHTML)){
       case "high":
         tds[l].style.backgroundColor = "rgb(255, 115, 115)";
         break;
