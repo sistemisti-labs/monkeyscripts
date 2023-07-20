@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name     RT - Condition
-// @version  1.2
+// @version  1.3
 // @grant    none
 // @match    https://rt.labs.it/rt/Ticket/Display.html*
+// @match    https://rt.labs.it/rt//Ticket/Display.html*
 // @author   Tommy x Endri
 // ==/UserScript==
 

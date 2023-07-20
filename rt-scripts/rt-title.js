@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name RT - Title
 // @description Script RT
-// @version 1.2
+// @version 1.3
 // @grant none
 // @author Endri
 // @match https://rt.labs.it/rt/Ticket/*
+// @match https://rt.labs.it/rt//Ticket/*
 // ==/UserScript==
 
 var t = document.getElementById('header');
